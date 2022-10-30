@@ -1,0 +1,44 @@
+.Sidebar {
+  flex: 1;
+  position: sticky;
+  width: 200px;
+  top: 50px;
+}
+.sidebarMenu {
+  padding: 20px;
+  color: #555;
+}
+.sidebarLogo {
+  width: 50%;
+}
+.sidebarList {
+  display: flex;
+  flex-direction: column;
+  font-size: larger;
+  cursor: pointer;
+}
+
+.bi::before {
+  width: 20%;
+  margin-bottom: 60px;
+  margin-left: 30px;
+}
+.bi:hover {
+  background: #f5f3f2;
+  transition: all 0.5s;
+}
+.profileLogo {
+  width: 20%;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.SidebarProfilePicture {
+  display: flex;
+  align-items: center;
+  margin-bottom: 60px;
+  margin-left: 9px;
+}
+.dropright &::after {
+  margin-left: 0;
+}
